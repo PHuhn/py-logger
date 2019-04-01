@@ -1,0 +1,25 @@
+{
+  "SensorConfigFile": "config.dat",
+  "OutputLogger": "Console",
+  "Nrdp": "true",
+  "Console": {},
+  "File": {
+    "Folder": ""
+  },
+  "Sql": {
+    "OdbcDriver": "SQL Server",
+    "ServerName": "192.168.0.21\\Express",
+    "Port": "55109",
+    "DbName": "Logging",
+    "User": "RaspPI",
+    "Password": "Colony0RaspberryPI0"
+  },
+  "Nagios": {
+    "Url": "http://localhost/nrdp/",
+    "Token": "u%test-token",
+    "Host": "raspberrypi",
+    "Service": "sensor-logger",
+    "State": "0",
+    "CheckType": "1"
+  }
+}
