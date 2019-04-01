@@ -33,8 +33,9 @@ GitHub.txt
 Notes.txt
 pkg.txt
 
-# logs
+# py-logger
 py-logger/*-py-logger.log
+py-logger/*.bat
 
 # Angular
 node_modules/
@@ -53,4 +54,3 @@ py-logger/etc/NrdpConfig.sh
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-py-logger.zip
