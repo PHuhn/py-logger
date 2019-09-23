@@ -82,8 +82,10 @@ sudo wget https://codeload.github.com/PHuhn/py-logger/zip/master -Opy-logger.zip
 sudo unzip py-logger.zip
 sudo rm py-logger.zip
 cd ./py-logger-master/py-logger/.
-  <configure the config.dat and test the configuration>
-  <configure the config.json, I suggest leaving it in console output>
+  <configure the config.dat and test the configuration with the following:
+   sudo python3 py-logger.py
+  >
+  <configure the config.json, I suggest leaving it in console output, so you can return here and change and retest the configuration>
 cd etc
 sudo chmod 755 *.sh
 sudo ./py-logger-install.sh
