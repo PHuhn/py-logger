@@ -1,5 +1,7 @@
 # py-logger
+
 ## Overview
+
 This solution contains the following:
 - py-logger (python logger).
 
@@ -30,18 +32,18 @@ and the above can add logging to:
 
 - Nagios.
 
-### Logging Points (config.dat)
+### Logging Attributes (config.dat)
 
-- Id
-- Type
-- Room
-- Gp I/O
-- Value type
-- Valid value
-- Start Time
-- End Time
-- Settings
-- Notification
+- Id (needs to be unique across all sources)
+- Type (type of sensor)
+- Room (location)
+- GP I/O (Raspberry-PI General Purpose I/O port #)
+- Value type (R=range/A=always/N=never)
+- Valid value (either 0 or 1)
+- Start Time (range valid start time)
+- End Time (range valid end time)
+- Settings (2 string values seperated by |, example "ok|alarm", the first value is if 0 and second value if 1)
+- Notification (nagios if responsible person should be notified)
 
 ### Logging Configuration (config.json)
 
