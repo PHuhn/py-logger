@@ -75,6 +75,20 @@ and the above can add logging to:
 
 ### Installation Instructions ##
 
+```
+sudo mkdir /usr/local/src
+cd /usr/local/src
+sudo wget https://codeload.github.com/PHuhn/py-logger/zip/master -Opy-logger.zip
+sudo unzip py-logger.zip
+sudo rm py-logger.zip
+cd ./py-logger-master/py-logger/.
+  <configure the config.dat and test the configuration>
+  <configure the config.json, I suggest leaving it in console output>
+cd etc
+sudo chmod 755 *.sh
+sudo ./py-logger-install.sh
+  <configure the config.json in /usr/local/py-logger directory>
+```
 
 ### Other Documents ##
 

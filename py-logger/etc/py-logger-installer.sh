@@ -11,7 +11,7 @@
 #
 # program values:
 PROGNAME=$(basename "$0")
-REVISION="1.0.0"
+REVISION="1.0.1"
 # Varialbes:
 LOG_DIR=/var/log
 LOCAL_DIR=/usr/local
@@ -29,8 +29,8 @@ fi
 #
 if [ ! -f "${LOCAL_DIR}/py-logger/config.json" ]; then
     echo "${PROGNAME}:${LINENO}: copying to ${LOCAL_DIR}/py-logger directory."
-    sudo cp ./config.* ${LOCAL_DIR}/py-logger/.
-    sudo cp ./*.py ${LOCAL_DIR}/py-logger/.
+    sudo cp ../config.* ${LOCAL_DIR}/py-logger/.
+    sudo cp ../*.py ${LOCAL_DIR}/py-logger/.
     echo "${PROGNAME}:${LINENO}: editing ${LOCAL_DIR}/py-logger/config.json file."
     sudo sed -i -e "s/\"OutputLogger\": \"Console\"/\"OutputLogger\": \"File\"/" ${LOCAL_DIR}/py-logger/config.json
     sudo sed -i -e "s/\"Folder\": \"\"/\"Folder\": \"\/var\/log\/py-logger\"/" ${LOCAL_DIR}/py-logger/config.json
