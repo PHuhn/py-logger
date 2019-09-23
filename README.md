@@ -45,6 +45,15 @@ and the above can add logging to:
 - Settings (2 string values seperated by |, example "ok|alarm", the first value is if 0 and second value if 1)
 - Notification (nagios if responsible person should be notified)
 
+Example:
+```
+id,type,room,gpio,valtyp,vadval,start,end,settings,notification
+door-115,Door,115,4,R,0,08:00:00,17:00:00,closed|open,0
+light-115,Light,115,18,R,0,08:00:00,17:00:00,off|on,0
+door-116,Door,116,17,A,0,00:00:00,23:59:59,closed|open,0
+refrig-116,Refrig,116,22,N,0,00:00:00,23:59:59,ok|alarm,1
+```
+
 ### Logging Configuration (config.json)
 
 ```
