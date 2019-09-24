@@ -4,8 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2544e033-6dfb-4db3-acd9-83235b329501</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>.\logger.py</StartupFile>
-    <SearchPath>..\py-logger</SearchPath>
+    <StartupFile>.\py-logger.py</StartupFile>
+    <SearchPath>..\py-logger;etc</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>py-logger</Name>
@@ -72,6 +72,8 @@
     <Content Include="etc\Create_DoorLight_Table.sql" />
     <Content Include="etc\dev_stuff\windows_cfg.txt" />
     <Content Include="etc\dev_stuff\wpa_supplicant_conf.txt" />
+    <Content Include="etc\send_reset.sh" />
+    <Content Include="etc\send_warn.sh" />
     <Content Include="etc\fix_logger.sh" />
     <Content Include="etc\dev_stuff\freetds.conf" />
     <Content Include="etc\dev_stuff\hosts_cfg.txt" />
