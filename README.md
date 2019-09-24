@@ -32,7 +32,7 @@ and the above can add logging to:
 
 - Nagios.
 
-### Logging Attributes (config.dat)
+### Logging Attributes ([config.dat](https://github.com/PHuhn/py-logger/wiki/Configuring-config.dat))
 
 - Id (needs to be unique across all sources)
 - Type (type of sensor)
@@ -54,7 +54,7 @@ door-116,Door,116,17,A,0,00:00:00,23:59:59,closed|open,0
 refrig-116,Refrig,116,22,N,0,00:00:00,23:59:59,ok|alarm,1
 ```
 
-### Logging Configuration (config.json)
+### Logging Configuration ([config.json](https://github.com/PHuhn/py-logger/wiki/Configuring-config.json))
 
 ```
 {
