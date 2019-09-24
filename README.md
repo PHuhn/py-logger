@@ -105,5 +105,8 @@ sudo ./py-logger-install.sh
 
 ### Other Documents ##
 
+Also see:
+
+[Configuring config.dat](https://github.com/PHuhn/py-logger/wiki/Configuring-config.dat) 
 
 Good luck, Phil
