@@ -2,8 +2,10 @@
 
 ## Overview
 
-This solution contains the following:
+This solution contains the following Python 3 application:
 - py-logger (python logger).
+
+## Python Files
 
 py-logger contains the following python files:
 - logger.py
@@ -12,17 +14,17 @@ py-logger contains the following python files:
 - nrdp_logger.py
 - send_nrdp.py
 
+## Required Python libraries
+
+- pyodbc,
+- gpiozero.
+
 ## Configuration Files
 
 - config.dat,
 - config.json.
 
-## Required libraries
-
-- pyodbc,
-- gpiozero.
-
-## Configurable Log Outputs
+### Configurable Log Outputs
 
 - Console,
 - File (daily),
@@ -32,7 +34,7 @@ and the above can add logging to:
 
 - Nagios.
 
-### Logging Attributes ([config.dat](https://github.com/PHuhn/py-logger/wiki/Configuring-config.dat))
+#### Logging Attributes ([config.dat](https://github.com/PHuhn/py-logger/wiki/Configuring-config.dat))
 
 - Id (needs to be unique across all sources)
 - Type (type of sensor)
