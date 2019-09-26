@@ -36,7 +36,7 @@ EOF
  DT=`date +'%Y-%m-%d %H:%M:%S'`
  #
  # echo ${TOKEN}
- # OK: refrigerator in room 116
- python3 ../send_nrdp.py -u http://localhost/nrdp/ -t ${TOKEN} -H ${RPI_HOST} -c 1 -s ${SERVICE} -S 0 -o "${DT},refrig-116,refrig,116,OK: refrigerator in room 116"
+ # OK: refrig-116-sensor-logger
+ python3 ../send_nrdp.py -u http://localhost/nrdp/ -t ${TOKEN} -H ${RPI_HOST} -c 1 -s ${SERVICE} -S 0 -o "${DT}, OK: ${SERVICE}"
  echo $?
 #

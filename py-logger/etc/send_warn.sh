@@ -36,7 +36,7 @@ EOF
  DT=`date +'%Y-%m-%d %H:%M:%S'`
  #
  # echo ${TOKEN}
- # : Danger refrigerator alert in room 116
- python3 ../send_nrdp.py -u http://localhost/nrdp/ -t ${TOKEN} -H ${RPI_HOST} -c 1 -s ${SERVICE} -S 1 -o "${DT},refrig-116,refrig,116,WARNING: Danger refrigerator alert in room 116"
+ # WARNING: refrig-116-sensor-logger alert!
+ python3 ../send_nrdp.py -u http://localhost/nrdp/ -t ${TOKEN} -H ${RPI_HOST} -c 1 -s ${SERVICE} -S 1 -o "${DT}, WARNING: ${SERVICE} alert!"
  echo $?
 #
