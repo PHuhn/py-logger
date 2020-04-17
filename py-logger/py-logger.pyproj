@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2544e033-6dfb-4db3-acd9-83235b329501</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>.\py-logger.py</StartupFile>
+    <StartupFile>.\logger.py</StartupFile>
     <SearchPath>..\py-logger;etc</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
